@@ -281,6 +281,8 @@ export default styles => ({
           word,
         )
       })
+      parentState.withinText = false
+
       return words
     },
   },
